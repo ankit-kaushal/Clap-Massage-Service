@@ -1042,6 +1042,11 @@ p {
       .testimonial-area .shape-three {
         right: 35px; } }
 
+
+        .testimonial-area .es-widget-title-container {
+          display: none !important;
+        }
+
 .testimonial-bg {
   position: relative;
   z-index: 9; }
