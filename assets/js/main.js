@@ -33,8 +33,12 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 10) {
             $(".navigation-bar").removeClass("sticky");
+            $(".navbar-brand").removeClass("sticky");
+            $("#navbar-logo").attr("src", "assets/images/logo.png");
         }else{
             $(".navigation-bar").addClass("sticky");
+            $(".navbar-brand").addClass("sticky");
+            $("#navbar-logo").attr("src", "assets/images/sticky-logo.png");
         }
     });
     
